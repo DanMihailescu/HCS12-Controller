@@ -1,0 +1,9 @@
+#include "basicLCD.h"
+#include "hcs12dp256.h"
+
+void main(void)
+{ 
+  	 RTI
+	 Lcd2PP_Init();
+	 LCD_display({'S', 'p', 'e', 'e', 'd'});
+}
